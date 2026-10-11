@@ -22,7 +22,3 @@ cc -Wall -Wextra -Werror C06/ex01/ft_print_params.c -o /tmp/print_params
 ```
 
 No compilar todos los ejercicios juntos: repiten nombres de funciones y varios contienen `main`.
-
-## Estado de la revisión
-
-Auditoría del 11 de octubre de 2026: el Makefile global intenta enlazar todos los fuentes; al ejecutarlo con GCC falla por símbolos duplicados. No se ha validado el comportamiento de todos los ejercicios. No hay suite de pruebas ni `.gitignore` en la raíz. El archivo `main` guardado debe revisarse antes de decidir si conservarlo.
